@@ -9,9 +9,14 @@
 </head>
 <body>
 
-<audio autoplay loop preload="auto">
+<audio autoplay loop preload="auto" id="song">
     <source src="emotionless.mp3">
 </audio>
+
+<script>
+    var audio = document.getElementById("song");
+    audio.volume = 0.2;
+</script>
 
 
 
